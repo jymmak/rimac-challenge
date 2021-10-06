@@ -1,18 +1,21 @@
-.containerFooter {
+.container-footer {
   position: absolute;
   width: 100%;
   bottom: 0;
   padding: 30px 100px;
   color: $color-gray;
+  p{
+    font-size: 13px;
+  }
 }
 
 @media (max-width: 500px) {
-  .containerFooter {
+  .container-footer {
     display: none;
   }
 }
 @media (max-width: 960px) {
-  .containerFooter {
+  .container-footer {
     padding: 10px 20px;
   }
 }

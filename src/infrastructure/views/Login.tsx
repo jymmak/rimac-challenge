@@ -1,14 +1,12 @@
 import React from "react";
-import Header from "../components/Header";
-import Footer from "../components/Footer";
+import BannerLogin from "../elements/BannerLogin";
+
+
 const Login: React.FC = () => {
   return (
-    <div>
-      <Header />
-
-      <Footer />
-    </div>
+   <BannerLogin/>
   );
 };
 
 export default Login;
+  
