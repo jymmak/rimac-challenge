@@ -1,8 +1,14 @@
 import React from "react";
-
+import Header from "../components/Header";
+import Footer from "../components/Footer";
 const Login: React.FC = () => {
-  return <h1 >Login</h1>;
- 
+  return (
+    <div>
+      <Header />
+
+      <Footer />
+    </div>
+  );
 };
 
 export default Login;

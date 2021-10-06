@@ -1,0 +1,18 @@
+.containerFooter {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  padding: 30px 100px;
+  color: $color-gray;
+}
+
+@media (max-width: 500px) {
+  .containerFooter {
+    display: none;
+  }
+}
+@media (max-width: 960px) {
+  .containerFooter {
+    padding: 10px 20px;
+  }
+}

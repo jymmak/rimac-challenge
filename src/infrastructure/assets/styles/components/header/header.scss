@@ -1,0 +1,49 @@
+.containerHeader {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  padding: 20px 100px;
+  background: transparent;
+  display: flex;
+  justify-content: space-between;
+
+  .containerContact {
+    display: flex;
+    align-items: center;
+    .message {
+      font-size: 14px;
+      margin-right: 20px;
+      font-weight: 400;
+    }
+    .phone {
+      text-decoration: none;
+      display: flex;
+      .numberDesktop{
+          font-size: 14px;
+          color:$color-blue;
+      }
+      .numberMobile {
+        display: none;
+      }
+    }
+  }
+}
+@media (max-width: 500px) {
+  .message {
+    display: none;
+  }
+  .numberDesktop {
+    display: none;
+  
+  }
+  .numberMobile {
+   display: block !important;
+   margin-left: 10px;
+   color:$color-blue;
+  }
+}
+@media (max-width: 980px) {
+  .containerHeader {
+    padding: 20px;
+  }
+}
