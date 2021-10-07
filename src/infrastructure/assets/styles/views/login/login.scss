@@ -1,0 +1,11 @@
+.container_login {
+  display: flex;
+  justify-content: start;
+  width: 100%;
+}
+
+@media (max-width: 500px) {
+  .container_login {
+    display: block;
+  }
+}

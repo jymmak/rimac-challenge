@@ -1,0 +1,43 @@
+.cotiza {
+  padding: 50px 20px;
+  margin-top: 40px;
+  display: grid;
+  justify-content: center;
+  h3 {
+    font-size: 22px;
+    color: $color-gray_titulos;
+    font-weight: 400;
+    padding-top: 30px;
+    margin-bottom: 20px;
+  }
+  .text_error {
+    font-size: 11px;
+    color: $color-primary;
+    width: 288px;
+  }
+  .cotiza_button {
+    background: $color-primary;
+    color: $color-white;
+    width: 192px;
+    height: 56px;
+    outline: none;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: "Lato", sans-serif;
+    letter-spacing: 0.8px;
+    cursor: pointer;
+  }
+}
+
+@media (max-width: 500px) {
+  .cotiza_button {
+    width: 296px;
+    margin-left: 0px;
+    margin-top: 20px;
+    font-size: 14px;
+  }
+}

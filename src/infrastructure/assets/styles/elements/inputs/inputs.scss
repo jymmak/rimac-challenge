@@ -1,0 +1,83 @@
+.content_select {
+  display: flex;
+
+  .select_form {
+    border: 0.5px solid $color-gray_border;
+    border-radius: 4px 0px 0px 4px;
+    width: 80px;
+    height: 56px;
+    position: relative;
+    padding-left: 10px;
+    margin: 10px 0px;
+    display: flex;
+    select {
+      border: none;
+      outline: none;
+      font-size: 16px;
+      color: $color-gray_titulos;
+      option {
+        color: $color_primary;
+      }
+    }
+  }
+
+  .input_select {
+    border: 0.5px solid $color-gray_border;
+    border-radius: 0px 4px 4px 0px;
+    width: 220px;
+    height: 56px;
+    position: relative;
+    padding-left: 10px;
+    margin: 10px 0px;
+    input {
+      height: 95%;
+      width: 97%;
+      border: none;
+      outline: none;
+      font-size: 16px;
+      ::placeholder {
+        color: $color-gray;
+      }
+    }
+  }
+}
+
+.container_input_text {
+  input {
+    border: 1px solid $color-gray_border;
+    color: $color-gray_titulos;
+    font-size: 16px;
+    font-weight: 500;
+    width: 298px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 4px;
+    outline: none;
+    margin: 10px 0px;
+    ::placeholder {
+      color: $color-gray;
+    }
+  }
+}
+
+.content_checkbox{
+  max-width: 288px;
+  height: 40px;
+  font-size: 14px;
+  color: $color-gray_paragrap;
+  position: relative;
+  margin: 10px 0px;
+  width: 300px;
+  input {
+    width: 20px;
+    height: 20px;
+  }
+  label {
+    position: absolute;
+    height: 50px;
+    margin-left: 15px;
+    a {
+      text-decoration: underline;
+    }
+  }
+}

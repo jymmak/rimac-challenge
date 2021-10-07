@@ -1,12 +1,14 @@
 import React from "react";
 import BannerLogin from "../elements/BannerLogin";
-
+import LoginForm from "../elements/LoginForm";
 
 const Login: React.FC = () => {
   return (
-   <BannerLogin/>
+    <div className="container_login">
+      <BannerLogin />
+      <LoginForm />
+    </div>
   );
 };
 
 export default Login;
-  
