@@ -7,18 +7,12 @@ import ThanksPage from "../views/ThanksPage";
 
 const AppRoutes: React.FC = () => {
   return (
-    <Router>
+    <Router basename ={process.env.PUBLIC_URL}>
       <Layout>
         <Switch>
-          <Route path="/login">
-            <Login />
-          </Route>
-          <Route path="/plan">
-            <Plan />
-          </Route>
-          <Route path="/thanks">
-            <ThanksPage />
-          </Route>
+        <Route path="/login" exact component={Login} />
+          <Route path="/plan" exact component={Plan} />
+          <Route path="/thanks" exact component={ThanksPage} />
         </Switch>
       </Layout>
     </Router>
