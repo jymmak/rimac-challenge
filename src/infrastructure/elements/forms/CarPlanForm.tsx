@@ -38,7 +38,7 @@ const CarPlanForm: FunctionComponent<CarDetailsProps> = (props) => {
       <div className="details-form-01 w-80">
         <div>
           <PageHeader
-            onBack={() => router.push("/")}
+            onBack={() => router.push("/login")}
             title="Volver"
             backIcon={<LeftCircleOutlined />}
           />

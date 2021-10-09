@@ -1,8 +1,9 @@
 {
-  "homepage":"https://jymmak.github.io/rimac-challenge",
+  
   "name": "rimac-challenge",
   "version": "0.1.0",
   "private": true,
+  "homepage":"http://jymmak.github.io/rimac-challenge/",
   "dependencies": {
     "@material-ui/core": "^4.12.3",
     "@testing-library/jest-dom": "^5.14.1",
@@ -27,7 +28,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "npm run build && gh-pages -d build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

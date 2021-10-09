@@ -10,9 +10,15 @@ const AppRoutes: React.FC = () => {
     <Router>
       <Layout>
         <Switch>
-          <Route path="/" exact component={Login} />
-          <Route path="/plan" exact component={Plan} />
-          <Route path="/thanks" exact component={ThanksPage} />
+          <Route path="/login">
+            <Login />
+          </Route>
+          <Route path="/plan">
+            <Plan />
+          </Route>
+          <Route path="/thanks">
+            <ThanksPage />
+          </Route>
         </Switch>
       </Layout>
     </Router>

@@ -34,7 +34,7 @@ const MessageThanks = () => {
           <button
             type="submit"
             className="general_button"
-            onClick={() => router.push("/")}
+            onClick={() => router.push("/login")}
           >
             CÓMO USAR MI SEGURO
           </button>
