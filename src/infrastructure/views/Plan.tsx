@@ -1,4 +1,4 @@
-import React, { FunctionComponent, useState, useEffect } from "react";
+import React, { FunctionComponent, useState } from "react";
 import { Steps, Progress } from "antd";
 import CarPlanForm from "../elements/forms/CarPlanForm";
 import DescriptionPlanStep2 from "../elements/forms/DescriptionPlanStep2";

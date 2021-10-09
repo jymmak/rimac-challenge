@@ -90,7 +90,7 @@ export const InputCheckbox = ({
       ></input>
       <label>
         {label}
-        <a style={{ marginLeft: 3 }}>{underline}</a>
+        <p>{underline}</p>
       </label>
     </div>
   );

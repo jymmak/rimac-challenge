@@ -1,5 +1,5 @@
 import React, { FunctionComponent, useEffect, useState } from "react";
-import { List, Divider, Button } from "antd";
+import { List, Divider } from "antd";
 import { CheckOutlined } from "@ant-design/icons";
 import { formatToCurrency } from "../../utils/validations/User";
 import { useHistory } from "react-router-dom";
@@ -47,7 +47,7 @@ const DescriptionPlanStep2: FunctionComponent<CarDetailsProps> = (props) => {
             </List.Item>
           )}
         />
-        <button className="general_button"  onClick={onWantClick}>
+        <button className="general_button" onClick={onWantClick}>
           LO QUIERO
         </button>
       </div>
