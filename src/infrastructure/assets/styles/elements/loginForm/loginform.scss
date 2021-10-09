@@ -1,8 +1,4 @@
-.cotiza {
-  padding: 50px 20px;
-  margin-top: 40px;
-  display: grid;
-  justify-content: center;
+form {
   h3 {
     font-size: 22px;
     color: $color-gray_titulos;
@@ -14,22 +10,6 @@
     font-size: 11px;
     color: $color-primary;
     width: 288px;
-  }
-  .cotiza_button {
-    background: $color-primary;
-    color: $color-white;
-    width: 192px;
-    height: 56px;
-    outline: none;
-    margin-top: 40px;
-    margin-bottom: 30px;
-    border: none;
-    border-radius: 8px;
-    font-weight: bold;
-    font-size: 16px;
-    font-family: "Lato", sans-serif;
-    letter-spacing: 0.8px;
-    cursor: pointer;
   }
 }
 

@@ -1,28 +1,66 @@
-@import 'variables.scss';
-@import './views/login/login.scss';
-@import './components/header/header.scss';
-@import './components/footer/footer.scss';
-@import './elements/bannerLogin/bannerLogin.scss';
-@import './elements/loginForm/loginForm.scss';
-@import './elements/inputs/inputs.scss';
+@import "variables.scss";
 
+//views
+@import "./views/plan/plan.scss";
 
+//components
+@import "./components/header/header.scss";
+@import "./components/footer/footer.scss";
 
-
-
+//elements
+@import "./elements/bannerLogin/bannerLogin.scss";
+@import "./elements/loginForm/loginForm.scss";
+@import "./elements/inputs/inputs.scss";
+@import "./elements/bannerThanks/bannerThanks.scss";
+@import "./elements/messageThanks/messageThanks.scss";
+@import "./elements/collapseForm/collapseForm.scss";
 
 * {
-  margin:0;
+  margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-body{
-  background: #FFFFFF;
-  font-family: 'Lato', sans-serif;
+body {
+  background: #ffffff;
+  font-family: "Lato", sans-serif;
   overflow-x: hidden;
   height: 100%;
 }
-.wrapper_page{
+.wrapper {
   width: 100%;
   height: 100%;
+}
+.general_button {
+  background: $color-primary;
+  color: $color-white;
+  width: 200px;
+  height: 56px;
+  outline: none;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 14px;
+  font-family: "Lato", sans-serif;
+  letter-spacing: 0.8px;
+  cursor: pointer;
+  padding: 0 2px;
+}
+
+.container {
+  padding: 50px 20px;
+  margin-top: 40px;
+  display: grid;
+  justify-content: center;
+}
+.container_inline {
+  display: flex;
+  justify-content: start;
+  width: 100%;
+}
+@media (max-width: 500px) {
+  .container_inline {
+    display: block;
+  }
 }

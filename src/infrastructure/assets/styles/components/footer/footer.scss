@@ -1,10 +1,10 @@
 .container-footer {
-  position: absolute;
+  position: relative;
   width: 100%;
   bottom: 0;
   padding: 30px 100px;
   color: $color-gray;
-  p{
+  p {
     font-size: 13px;
   }
 }

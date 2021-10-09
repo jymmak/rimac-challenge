@@ -1,0 +1,29 @@
+.banner_thanks_desktop {
+  background: url("../../../images/background_thanks.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 550px;
+  height: 80vh;
+  position: relative;
+  margin-top: 45px;
+  .img_banner_thanks {
+    position: absolute;
+    top: 20%;
+    right: 0;
+  }
+}
+
+.banner_thanks_mobile {
+  display: none;
+}
+
+@media (max-width: 500px) {
+  .banner_thanks_desktop {
+    display: none;
+  }
+  .banner_thanks_mobile {
+    display: flex;
+    font-family: "Lato", sans-serif;
+    padding: 60px 0 40px 0;
+  }
+}

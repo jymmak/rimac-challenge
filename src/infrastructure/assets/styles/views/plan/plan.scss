@@ -1,0 +1,17 @@
+.container_step,
+.container_content {
+  padding: 50px;
+}
+.margin-content-tb {
+  padding: 50px;
+}
+.ant-page-header {
+  padding: 0;
+}
+.steps-mobile {
+  .progress-bar {
+    display: none;
+  }
+}
+@media (max-width: 500px) {
+}

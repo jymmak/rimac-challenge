@@ -12,6 +12,7 @@ interface InputTextProps {
   placeholder: string;
   onChange: any;
   name: string;
+  maxLength: any;
 }
 
 interface InputCheckedProps {
@@ -45,6 +46,7 @@ export const InputSelect = ({
           name={nameDocument}
           onChange={onChange}
           placeholder="Nro. de doc"
+          maxLength={8}
         ></input>
       </div>
     </div>
